@@ -1,0 +1,90 @@
+@import '../scss/values.scss';
+
+// !!!!!!!!!!!показать еще2!!!!!!!!!!!!!!
+.container2 {
+  width: 100%;
+  min-width: 320px;
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  background: #F8F8F8;
+  padding-bottom: 5vh;
+  // padding-left: 5px;
+  &__header{
+    width: 100%;
+    min-width: 320px;
+    max-width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 10px;
+    // margin-top: 20px;
+    border-top: 1px solid #D9FFF5;
+    background: linear-gradient(270deg, #FFFFFF  0%,  #F8F8F8 98.61%);
+    p{
+      @include font_style();
+      font-size: 22px;
+      line-height: 24px;
+      margin-top: 10px;
+      color: #7E7E82;
+      // border: 2px solid pink;
+    }
+  }
+  &__btn{
+    width: 24px;
+    height: 24px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: rgba(50, 50, 50, 0.0);
+    margin-left: 0.8em;
+    padding-left:25px;
+    white-space: nowrap;
+    background-image: url("https://kukufc1.github.io/KaTa//src/img/icon.png");
+    &::first-line{
+      @include font_style();
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 24px;
+    }
+  }
+
+}
+.link__flexbox{
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: flex-start;
+padding: 20px 10px 0 20px;
+.link__service__box {
+
+  &__slide{
+    width: 224px;
+    height: 160px;
+    display: flex;
+    justify-content: flex-start;
+    // align-items: center;
+    background-color: #FFFFFF;
+    @include border_style();
+    margin: 0px 10px 0 10px;
+    p{
+      @include font_style();
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 24px;
+      margin: 10px 0 0 20px;
+      color: #1B1C21;
+    }
+  }
+  &__btn {
+    width: 40px;
+    height: 40px;
+    border: 2px solid #FF3E79;
+    border-radius: 50%;
+    background-image: url("/src/img/dropdown.png");
+    background-repeat: no-repeat;
+    background-position: 50%  50%;
+    transform: translate(170px,-60px);
+  }
+}
+}

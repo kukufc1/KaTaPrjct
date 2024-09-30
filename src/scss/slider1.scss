@@ -1,0 +1,79 @@
+@import '../scss/values.scss';
+
+/* slider2 */
+.swiper_box2{
+  width: 320px;
+  height: 320px;
+  overflow: hidden;
+  background-color: $color_bg;
+  &__header{
+    width: 320px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 0 0 10px;
+    background: $color_gradient_header;
+    border-top: 1px solid #D9FFF5;
+    h3{
+      @include font_style();
+      font-size: 22px;
+      line-height: 24px;
+      font-weight: 400;
+      text-align: left;
+      color: #7E7E82;
+    }
+  }
+}
+.swiper-container.slider2{
+  width: 320px;
+  height: 160px;
+  // background-color: #FFFFFF;
+  padding-left: 20px;
+}
+.swiper-container.slider2 .swiper-pagination{
+  position: relative;
+  transform: translate(60px, 25px);
+}
+.swiper-container.slider2 .swiper-pagination .swiper-pagination-bullet {
+  width: 12px;
+  height: 12px;
+  background-color: $color_pgntn;
+}
+.slider2 .swiper-button-next{
+  position: relative;
+  // top: -50px;
+  // left: 220px;
+  // transform: translate(190px, -135px);
+  width: 40px;
+  height: 40px;
+  &::after{
+    content: " ";
+    @include btn_style();
+    position: relative;
+    top: -130px;
+    left: 190px;
+  }
+}
+
+.slider2 .swiper-wrapper{
+  margin-top: 20px;
+}
+.slider2 .swiper-wrapper > .swiper-slide{
+  width: 260px;
+  height: auto;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  background-color: #FFFFFF;
+  @include border_style();
+
+    p {
+      @include font_style();
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 24px;
+      text-align: left;
+      margin: 10px 0 0 10px;
+    }
+}

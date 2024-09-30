@@ -1,0 +1,72 @@
+@import '../scss/values.scss';
+
+.Title{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-left: 4px solid #41F6D7;
+  padding: 0 20px 0 0;
+  margin: 20px 0;
+  h1{
+    font-size: 28px;
+    font-family: TT Lakes;
+    /* text-align: left; */
+    padding: 0.5em;
+    white-space:nowrap;
+  }
+  .title_ic_repair{
+    opacity: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    transition:  0.3s ease;
+    // background-color: purple;
+    .ic_repair > button ,.ic_checkstatus > button{
+      width: 40px;
+      height: 40px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color:  $color;
+      border-radius: 50%;
+      // margin: 0 0.5em 0 1em;
+    }
+    .ic_repair_btn{
+      margin: 0 100px 0 0px;
+      background-image: url('https://kukufc1.github.io/KaTa//src/img/repair_ic.png');
+      width: 50%;
+      height: 50%;
+      background-repeat: no-repeat;
+      background-position: center;
+    }
+    .ic_checkstatus_btn{
+      background-image: url('https://kukufc1.github.io/KaTa//src/img/checkstatus.png');
+      width: 50%;
+      height: 50%;
+      background-repeat: no-repeat;
+      background-position: center;
+    }
+  }
+}
+
+
+.title_ic_repair > div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.title_ic_repair > div:first-child{
+  margin-right: 3em;
+}
+.title_ic_repair > div > button > h3{
+  font-family: TT Lakes;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0.20000000298023224px;
+  font-weight: 525;
+  white-space: nowrap;
+  display: block;
+  width: 150px;
+  height: auto;
+  transform: translate(-75%,0%);
+}

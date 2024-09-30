@@ -1,0 +1,72 @@
+@import '../scss/values.scss';
+
+/* slider */
+
+
+
+.swiper_box1{
+  width: 320px;
+  height: 230px;
+  overflow: hidden;
+  background-color: $color_bg;
+  padding-top: 20px;
+  &__header{
+    width: 320px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 0 0 10px ;
+    background: $color_gradient_header;
+    border-top: 1px solid #D9FFF5;
+    h3{
+      @include font_style();
+      font-size: 22px;
+      line-height: 24px;
+      font-weight: 400;
+      text-align: left;
+      color: #7E7E82;
+    }
+  }
+}
+
+.swiper-container.slider1{
+  width: 320px;
+  height: 72px;
+  padding-left: 20px;
+}
+.swiper-container.slider1 .swiper-pagination{
+  position: relative;
+  transform: translate(60px, 20px);
+}
+.swiper-container.slider1 .swiper-pagination .swiper-pagination-bullet {
+  width: 12px;
+  height: 12px;
+  background-color: $color_pgntn;
+}
+.slider1 .swiper-button-next{
+  position: relative;
+
+  width: 40px;
+  height: 40px;
+  &::after{
+    content: " ";
+    @include btn_style();
+    transform: translate(190px, -85px);
+  }
+}
+.slider1 .swiper-wrapper{
+  margin-top: 20px;
+}
+.slider1 .swiper-wrapper > .swiper-slide{
+  width: 240px;
+  height: 72px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #FFFFFF;
+  @include border_style();
+  img{
+    margin-left: 10px;
+  }
+}

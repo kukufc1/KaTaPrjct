@@ -1,0 +1,204 @@
+@import '../scss/values.scss';
+.wrapper_menu{
+  position: absolute;
+  // background-color: purple;
+}
+.burger {
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    position: relative;
+    top: 27px;
+    left: 1vw;
+    z-index: 16;
+    background-color: pink;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    button{
+      width:40px;
+      height:40px;
+      border-radius:50%;
+      background-color:$color;
+      background-image:url("/src/img/burger.png");
+      background-repeat:no-repeat;
+      background-position:center;
+    }
+}
+
+.overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, .96);
+    z-index: 15;
+}
+
+.menu-list {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  // justify-content: center;
+  list-style: none;
+  padding: 100px 0 0 0;
+  background: white;
+
+  top: -50px;
+  left: -340px; /* Скрываем меню за пределами экрана */
+  width: 320px;
+  height: auto;
+  // box-shadow: -2px 0 5px rgba(0, 0, 0, 0.5);
+  box-shadow: 16px 0px 52px 0px #0E185033;
+
+  transition: left 0.3s ease;
+  z-index: 15;
+  .menu-item {
+      display: block;
+      margin: 15px 0;
+      padding: 0 0 0 20px;
+      text-decoration: none;
+      color: black;
+      transition:  0.3s ease;
+  }
+
+  .menu-item:hover{
+      border-left: 4px solid #41F6D7;
+
+      color:#7E7E82;
+      // background-color: black;
+
+  }
+
+
+  a{
+    @include font_style();
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .menu__logo{
+    position: absolute;
+    left: 90px;
+    top: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    // background-color: purple;
+    img{
+      width: 100%;
+    }
+  }
+
+
+  .menu__searche__btn{
+    position: absolute;
+    right: 30px;
+    top: 35px;
+    width:45px;
+    height:45px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    button{
+      width:40px;
+      height:40px;
+      border-radius:50%;
+      background-color:$color;
+      background-image:url("/src/img/search.png");
+      background-repeat:no-repeat;
+      background-position:center;
+    }
+  }
+
+
+  .wrapper__contacts{
+    // border: 1px solid silver;
+    padding: 20px 10px;
+
+    .contact__btns{
+
+      button{
+        @include btnstyle();
+        margin-left: 10px;
+      }
+      button:nth-child(1){
+        background-image: url('https://kukufc1.github.io/KaTa//src/img/call_ic.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-color: $color;
+      }
+      button:nth-child(2){
+        background-image: url('https://kukufc1.github.io/KaTa//src/img/chat_ic.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-color: $color;
+      }
+      button:nth-child(3){
+        background-image:url('https://kukufc1.github.io/KaTa//src/img/profile_ic.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-color: $color;
+      }
+    }
+    .contact__text {
+      padding: 0 10px;
+      p{
+        @include font_style();
+        font-size: 16px;
+        line-height: 24px;
+        margin: 10px 0 10px 0;
+      }
+      p:last-child{
+        font-family: TT Lakes;
+        font-size: 24px;
+        line-height: 32px;
+        letter-spacing: -0.6000000238418579px;
+        font-weight: 700;
+        margin: 0px 0 20px 0;
+      }
+    }
+    .language{
+      padding: 0 10px;
+      a{
+        text-decoration:none;
+        font-family:TT Lakes;
+        font-size:16px;
+        line-height:24px;
+        letter-spacing:-.20000000298023224px;
+        text-align:left;
+        font-weight:400;
+        color:#000;
+      }
+      .language a:hover{
+        color:#7e7e82;
+      }
+    }
+  }
+}
+
+.menu-list.active {
+    left: 0px; /* Показываем меню */
+}
+
+@media (min-width: 360px) and (max-width: 768px){
+  .menu-list{
+    height: 1024px;
+    .wrapper__contacts{
+      position: absolute;
+      bottom: 0;
+    }
+  }
+}
+@media (min-width: 769px){
+  .menu-list{
+    height: 1700px;
+    .wrapper__contacts{
+      position: absolute;
+      bottom:50%;
+    }
+  }
+}

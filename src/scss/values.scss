@@ -1,0 +1,67 @@
+@font-face {
+  font-family: 'Comic';
+  src: url('../fonts/comic.ttf') format('truetype');
+  font-weight: normal;
+  font-style: italic;
+}
+
+
+$color_pgntn: #B5B6BC;
+$color_bg: #F8F8F8;
+$color_gradient_header: linear-gradient(270deg, #FFFFFF 0%, #F8F8F8 98.61%);
+$color: #FF3E79;
+$colorbg: #F8F8F8;
+
+@mixin border_style(
+  $border-width: 1px,
+  $border-style: solid,
+  $border-color: #EAEAEA,
+  $border-radius: 6px
+)
+{
+  border: $border-width $border-style $border-color;
+  border-radius: $border-radius;
+}
+
+@mixin btn_style(
+  $width: 40px,
+  $height: 40px,
+  $border-width: 2px,
+  $border-style: solid,
+  $border-color: #FF3E79,
+  $border-radius: 50%,
+  $background-image: url('/src/img/dropdown.png'),
+  $background-repeat: no-repeat,
+  $background-position: 50% 50%
+)
+{
+  width: $width;
+  height: $height;
+  border: $border-width $border-style $border-color;
+  border-radius: $border-radius;
+  background-image: $background-image;
+  background-repeat: $background-repeat;
+  background-position: $background-position;
+}
+
+@mixin font_style(
+  $font-family: TT Lakes,
+  $letter-spacing: 0.20000000298023224px
+)
+{
+  font-family: $font-family;
+  letter-spacing: $letter-spacing;
+}
+
+@mixin btnstyle(
+  $width: 40px,
+  $height: 40px,
+  $background-color: #FF3E79,
+  $border-radius: 50%
+)
+{
+  width: $width;
+  height: $height;
+  background-color: $background-color;
+  border-radius: $border-radius;
+}

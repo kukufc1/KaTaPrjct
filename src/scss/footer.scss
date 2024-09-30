@@ -1,0 +1,38 @@
+@import '../scss/values.scss';
+
+// !!!!!!!!!!!footer!!!!!!!!!!!!!!
+
+.footer{
+  width: 320px;
+
+  padding: 20px 20px;
+  border-top: 1px solid #D9FFF5;
+  background-color: #F8F8F8;
+  &__wrapper{
+
+    &__author{
+      margin-bottom: 20px;
+      p{
+        color: #7E7E82;
+        font-weight: 500;
+        font-family: TT Lakes;
+        font-size: 14px;
+        line-height: 16px;
+        text-align: center;
+      }
+    }
+    &__rules{
+      p{
+        color: #7E7E82;
+        font-weight: 500;
+        font-family: TT Lakes;
+        font-size: 14px;
+        line-height: 16px;
+        text-align: center;
+      }
+      p:first-child{
+        margin-bottom: 20px;
+      }
+    }
+  }
+}

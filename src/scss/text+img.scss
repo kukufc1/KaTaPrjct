@@ -1,0 +1,89 @@
+/* !!!!!!!!text + img!!!!!!!!!! */
+
+@import '../scss/values.scss';
+.wrapper__content{
+  background: $colorbg;
+  display: flex;
+  flex-direction: column;
+  width: 320px;
+  padding: 20px 10px 10px 10px;
+  &__text{
+
+    .text-container {
+
+      overflow: hidden;
+      max-height: 90px; /* Показывает только первые строки текста */
+      transition: max-height 0.3s ease;
+      @include font_style();
+      font-size: 14px;
+      line-height: 18px;
+      text-align: left;
+    }
+    .text-container.expanded {
+
+        max-height: 500px; /* Достаточно большая высота для отображения всего текста */
+    }
+    .next_read_btn{
+      background-color: #f8f8f8;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-direction: column;
+      #prgrf{
+
+        display: block;
+      }
+      p{
+        @include font_style();
+        font-size: 16px;
+        line-height: 24px;
+        font-weight: 500;
+
+        span{
+
+        }
+        #strlchk{
+
+          position: relative;
+          top: 5px;
+          // left: -5px;
+          // background-color: purple;
+          display: inline-block;
+          width: 20px;
+          height: 20px;
+          background-image: url('/src/img/icon.png');
+          // width: 50%;
+          // height: 50%;
+          background-repeat: no-repeat;
+          background-position: center;
+          background-position: 50% 50%;
+        }
+      }
+      #prgrf1{
+        display: none;
+
+        #strlchk1{
+          // background-color: purple;
+          position: relative;
+          top: 5px;
+          display: none;
+          width: 20px;
+          height: 20px;
+          background-image: url('/src/img/hide.png');
+          // width: 50%;
+          // height: 50%;
+          background-repeat: no-repeat;
+          background-position: center;
+          background-position: 50% 50%;
+        }
+      }
+    }
+  }
+  &__img{
+
+    img{
+      width: 100%;
+    }
+
+  }
+}

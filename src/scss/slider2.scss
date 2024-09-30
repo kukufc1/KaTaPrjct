@@ -1,0 +1,178 @@
+@import '../scss/values.scss';
+
+/* slider3 */
+.swiper_box3{
+  width: 320px;
+  // height: 600px;
+  padding-bottom: 30px;
+  overflow: hidden;
+  background-color: $color_bg;
+  &__header{
+    width: 320px;
+    height: 80px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0px 0 0 10px;
+    background: $color_gradient_header;
+    border-top: 1px solid #D9FFF5;
+    h3{
+      @include font_style();
+      font-size: 22px;
+      line-height: 24px;
+      font-weight: 400;
+      text-align: left;
+      color: #7E7E82;
+    }
+  }
+  .info{
+    // width: 288px;
+    height: 191px;
+    // background-color: plum;
+    padding: 0px 10px;
+
+    .content{
+      width: 288px;
+      height: 137px;
+      // background-color: violet;
+      p{
+        @include font_style();
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+        text-align: left;
+        color: #1B1C21;
+      }
+    }
+    .offer{
+      width: 202px;
+      height: 54px;
+      // background-color: pink;
+      a{
+        @include font_style();
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 24px;
+        text-align: left;
+        color: #1B1C21;
+        &::after{
+          content: " ";
+          display: block;
+          position: relative;
+          top: -45%;
+          left: 55%;
+          width: 24px; // Ширина вашего изображения
+          height: 24px; // Высота вашего изображения
+          background-image: url('/src/img/dropdown.png');
+          // filter: brightness(0) invert(1);
+          background-repeat: no-repeat;
+          background-position: 50% 50%;
+        }
+      }
+    }
+  }
+}
+
+.swiper-container.slider3{
+  // width: 320px;
+  // height: 220px;
+  // background-color: yellow;
+  // overflow: hidden;
+  padding-top: 20px;
+  .btn_order{
+    width: 125px;
+    height: 32px;
+    position: relative;
+    z-index: 2;
+    transform: translate(130px, -65px);
+
+    button{
+      width: 125px;
+      height: 32px;
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      border-radius:16px 16px 16px 16px;
+      padding: 10px;
+      background-color: $color;
+
+      p{
+        display: block;
+        width: 30px;
+        height: 24px;
+        font-weight: 700;
+        text-transform: uppercase;
+        font-family: TT Lakes;
+        font-size: 12px;
+        line-height: 24px;
+        letter-spacing: -0.15000000596046448px;
+        // text-align: right;
+        color: #FFFFFF;
+
+      }
+      p::after{
+        content: " ";
+        display: block;
+        position: relative;
+        top: -100%;
+        left: 290%;
+        width: 24px; // Ширина вашего изображения
+        height: 24px; // Высота вашего изображения
+        background-image: url('/src/img/dropdown.png');
+        filter: brightness(0) invert(1);
+        background-repeat: no-repeat;
+        background-position: 50% 50%;
+      }
+    }
+  }
+}
+
+
+.swiper-slide__box{
+  width: 260px;
+  height: 200px;
+  background-color: #FFFFFF;
+  @include border_style();
+  padding: 20px 0 0 10px;
+  margin-left: 10px;
+  // background-color: purple;
+  .service, .price, .period{
+    margin-bottom: 10px;
+    overflow: hidden;
+    h5{
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 16px;
+      text-align: left;
+      color:#7E7E82;
+      @include font_style(TT Lakes,0px);
+      opacity: 72%;
+    }
+  }
+}
+
+.swiper-container1, .swiper-container2, .swiper-container3{
+  // background-color: purple;
+
+  p{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: left;
+    color: #1B1C21;
+    @include font_style();
+  }
+}
+.swiper-container.slider3 .swiper-pagination{
+  position: relative;
+  transform: translate(0px, -10px);
+  span{
+    margin: 0 5px;
+  }
+}
+.swiper-container.slider3 .swiper-pagination .swiper-pagination-bullet {
+  width: 12px;
+  height: 12px;
+  background-color: $color_pgntn;
+}
+

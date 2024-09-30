@@ -1,0 +1,26 @@
+@import '../scss/values.scss';
+
+.slideMenu {
+  display: flex;
+  overflow-x: scroll;
+  margin: 0 0em 0 1em;
+}
+.slideMenu::-webkit-scrollbar{
+  width: 0px;
+  height: 0;
+}
+.slideMenu button:hover{
+  border: solid 2px #B8FFEC;
+}
+.slideMenu button{
+  max-width: 246px;
+  height: 40px;
+  font-family: TT Lakes;
+  font-size: 16px;
+  white-space: nowrap;
+  border-radius: 6px;
+  background-color: #FFFFFF;
+  padding: 0 20px 0 20px;
+  color:  #7E7E82;
+  /* margin: 0 0px 0 10px; */
+}
