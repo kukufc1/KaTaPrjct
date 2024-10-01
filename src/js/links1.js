@@ -31,10 +31,10 @@ const maxVisible2 = getMaxVisibleLinks2();
            // Обновляем текст кнопки в зависимости от состояния
     if (isExpanded2) {
         toggleButton2.textContent = 'Скрыть';
-        toggleButton2.style.backgroundImage =' url("src/img/hide.png")';
+        toggleButton2.style.backgroundImage =' url("./img/hide.png")';
     } else {
         toggleButton2.textContent = 'Показать все';
-        toggleButton2.style.backgroundImage = 'url("https://kukufc1.github.io/KaTa//src/img/icon.png")';
+        toggleButton2.style.backgroundImage = 'url("./img/icon.png")';
     }
            updateLinkVisibilitytwo();
        });

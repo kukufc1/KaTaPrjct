@@ -29,10 +29,10 @@ export function links() {
                // Обновляем текст кнопки в зависимости от состояния
         if (isExpanded) {
             toggleButton.textContent = 'Скрыть';
-            toggleButton.style.backgroundImage =' url("src/img/hide.png")';
+            toggleButton.style.backgroundImage =' url("./img/hide.png")';
         } else {
             toggleButton.textContent = 'Показать все';
-            toggleButton.style.backgroundImage = 'url("https://kukufc1.github.io/KaTa//src/img/icon.png")';
+            toggleButton.style.backgroundImage = 'url("./img/icon.png")';
         }
                updateLinkVisibility();
            });

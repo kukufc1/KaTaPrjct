@@ -32,6 +32,7 @@
     }
   }
   &__btn{
+    position: relative;
     width: 24px;
     height: 24px;
     background-repeat: no-repeat;
@@ -40,7 +41,7 @@
     margin-left: 0.8em;
     padding-left:25px;
     white-space: nowrap;
-    background-image: url("https://kukufc1.github.io/KaTa//src/img/icon.png");
+    background-image: url("https://kukufc1.github.io/KaTaPrjct//img/icon.png");
     &::first-line{
       @include font_style();
       font-size: 16px;
@@ -81,7 +82,7 @@ padding: 20px 10px 0 20px;
     height: 40px;
     border: 2px solid #FF3E79;
     border-radius: 50%;
-    background-image: url("/src/img/dropdown.png");
+    background-image: url("https://kukufc1.github.io/KaTaPrjct//img/dropdown.png");
     background-repeat: no-repeat;
     background-position: 50%  50%;
     transform: translate(170px,-60px);

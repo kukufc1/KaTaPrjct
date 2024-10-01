@@ -11,10 +11,10 @@ export function menu() {
         // Меняем background-image в зависимости от состояния меню
         if (menu.classList.contains('active')) {
             // Когда меню открыто
-            burger.style.backgroundImage = 'url(/src/img/close.png)'; // Укажите путь к новому изображению
+            burger.style.backgroundImage = 'url(./img/burgerX.png)'; // Укажите путь к новому изображению
         } else {
             // Когда меню закрыто
-            burger.style.backgroundImage = 'url(/src/img/burger.png)'; // Укажите путь к изначальному изображению
+            burger.style.backgroundImage = 'url(./img/burger.png)'; // Укажите путь к изначальному изображению
         }
     
         overlay.style.display = menu.classList.contains('active') ? 'block' : 'none';

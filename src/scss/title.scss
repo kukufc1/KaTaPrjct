@@ -1,6 +1,7 @@
 @import '../scss/values.scss';
 
 .Title{
+  // width: 320px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -15,8 +16,9 @@
     white-space:nowrap;
   }
   .title_ic_repair{
-    opacity: 0;
-    display: flex;
+    display: none;
+    // opacity: 1;
+    // display: flex;
     align-items: center;
     justify-content: space-around;
     transition:  0.3s ease;
@@ -33,14 +35,14 @@
     }
     .ic_repair_btn{
       margin: 0 100px 0 0px;
-      background-image: url('https://kukufc1.github.io/KaTa//src/img/repair_ic.png');
+      background-image: url('https://kukufc1.github.io/KaTaPrjct//img/repair_ic.png');
       width: 50%;
       height: 50%;
       background-repeat: no-repeat;
       background-position: center;
     }
     .ic_checkstatus_btn{
-      background-image: url('https://kukufc1.github.io/KaTa//src/img/checkstatus.png');
+      background-image: url('https://kukufc1.github.io/KaTaPrjct//img/checkstatus.png');
       width: 50%;
       height: 50%;
       background-repeat: no-repeat;

@@ -7,7 +7,7 @@
     display: block;
   }
   .container,.container2,.box__price{
-    display: none;
+    display: none !important;
   }
      /*Cтиль будет применяться, если ширина окна браузера больше 321 пикселей*/
   }
@@ -24,19 +24,20 @@
   
     .wrapper__content{
       width: 100%;
-      flex-direction: row;
+      flex-direction: row !important;
   
       &__text{
-        flex-basis: 50%;
+        flex-basis: 50% !important;
       }
       &__img{
-        flex-basis: 50%;
+        flex-basis: 50% !important;
         img{
-          width: 100%;
+          width: 100% ;
         }
   
       }
     }
+
   
   }
   /*Cтиль будет применяться, если ширина окна браузера больше 321 пикселей но меньше 768*/
@@ -53,10 +54,10 @@
   
   
   .swiper_box1,.swiper_box2,.swiper_box3{
-    display: none;
+    display: none ;
   }
   .container,.container2,.box__price{
-    display: block;
+    display: block !important;
   }
   
   .wrapper__table{
@@ -125,7 +126,7 @@
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
-        background-color: purple;
+        // background-color: purple;
         p {
           text-align: left;
   
@@ -160,12 +161,24 @@
   }
      /*Cтиль будет применяться, если ширина окна браузера больше 321 пикселей*/
   }
+
+
+
+
+
+
+
+
+
+
   @media (min-width: 769px){
   .swiper_box1,.swiper_box2,.swiper_box3{
-    display: none;
+    display: none !important;
   }
   
-  
+  .container,.container2,.box__price{
+    display: block !important;
+  }
   
   
   
@@ -216,27 +229,27 @@
   
   
   .modal-content{
-    width: 440px;
+    width: 440px !important;
   
     h2{
-      margin: 45px 0 0 0;
+      margin: 45px 0 0 0 !important;
     }
   }
   .close-button{
-    position: absolute;
+    position: absolute !important;
     // top: 40px;
     // left: -70px;
-    transform: translate(-150%, 90%);
+    transform: translate(-150%, 90%) !important;
   }
   
   .feedback-modal-content{
-    width: 440px;
+    width: 440px !important;
     h2{
-      padding: 5px 10px;
-      margin: 0px 0 20px 0;
+      padding: 5px 10px !important;
+      margin: 0px 0 20px 0 !important;
     }
     .feedback-close{
-      transform: translate(-150%, 90%);
+      transform: translate(-150%, 90%) !important;
     }
   }
   
@@ -266,19 +279,20 @@
   
   .title_ic_repair{
     opacity: 1 !important;
+    display: flex  !important;
   }
   
   .wrapper__content{
-    width: 100%;
-    flex-direction: row;
+    width: 100% !important;
+    flex-direction: row !important;
   
     &__text{
-      flex-basis: 50%;
+      flex-basis: 50% !important;
     }
     &__img{
-      flex-basis: 50%;
+      flex-basis: 50% !important;
       img{
-        width: 100%;
+        width: 100% !important;
       }
   
     }

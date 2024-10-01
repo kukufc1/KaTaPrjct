@@ -21,7 +21,7 @@
   top: 0;
   right: 0px;
   width: 320px;
-  height: 120%;
+  // height: 185%;
   // padding: 0 20px;
   box-shadow: 16px 0px 52px 0px #454F7E05;
   box-shadow: -2px 0px 4px 0px #0E185033;
@@ -32,7 +32,7 @@
     line-height: 32px;
     letter-spacing: -0.6000000238418579px;
     text-align: left;
-    margin: 0px 0 20px 0;
+    margin: 40px 0 20px 0;
     padding: 0px 0 0 15px;
     color: #1B1C21;
     border-left: 4px solid #41F6D7;
@@ -98,7 +98,7 @@
     height: 40px;
     border-radius: 50%;
     background-color: $color;
-    background-image: url("/src/img/close.png");
+    background-image: url("https://kukufc1.github.io/KaTaPrjct//img/burgerX.png");
     background-repeat: no-repeat;
     background-position: 50% 50%;
   }
@@ -159,7 +159,7 @@
      border-radius:16px 16px 16px 16px;
      padding: 10px;
      background-color: $color;
-     background-image: url();
+    //  background-image: url();
      p{
        display: block;
        width: 30px;
@@ -179,7 +179,7 @@
          transform: translate(80px, -25px);
          width: 24px; // Ширина вашего изображения
          height: 24px; // Высота вашего изображения
-         background-image: url('/src/img/dropdown.png');
+         background-image: url('https://kukufc1.github.io/KaTaPrjct//img/dropdown.png');
          filter: brightness(0) invert(1);
          background-repeat: no-repeat;
          background-position: 50% 50%;

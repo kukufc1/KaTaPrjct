@@ -5,7 +5,7 @@
   background: $colorbg;
   display: flex;
   flex-direction: column;
-  width: 320px;
+  // width: 320px;
   padding: 20px 10px 10px 10px;
   &__text{
 
@@ -39,8 +39,10 @@
         line-height: 24px;
         font-weight: 500;
 
-        span{
 
+
+        }
+        
         }
         #strlchk{
 
@@ -51,7 +53,7 @@
           display: inline-block;
           width: 20px;
           height: 20px;
-          background-image: url('/src/img/icon.png');
+          background-image: url('https://kukufc1.github.io/KaTaPrjct//img/icon.png');
           // width: 50%;
           // height: 50%;
           background-repeat: no-repeat;
@@ -69,7 +71,7 @@
           display: none;
           width: 20px;
           height: 20px;
-          background-image: url('/src/img/hide.png');
+          background-image: url('https://kukufc1.github.io/KaTaPrjct//img/hide.png');
           // width: 50%;
           // height: 50%;
           background-repeat: no-repeat;
@@ -77,13 +79,11 @@
           background-position: 50% 50%;
         }
       }
-    }
-  }
-  &__img{
+      &__img{
 
-    img{
-      width: 100%;
+        img{
+          width: 100%;
+        }
+    
+      }
     }
-
-  }
-}

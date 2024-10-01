@@ -21,7 +21,7 @@
       height:40px;
       border-radius:50%;
       background-color:$color;
-      background-image:url("/src/img/burger.png");
+      background-image:url("https://kukufc1.github.io/KaTaPrjct//img/burger.png");
       background-repeat:no-repeat;
       background-position:center;
     }
@@ -108,7 +108,7 @@
       height:40px;
       border-radius:50%;
       background-color:$color;
-      background-image:url("/src/img/search.png");
+      background-image:url("https://kukufc1.github.io/KaTaPrjct//img/search.png");
       background-repeat:no-repeat;
       background-position:center;
     }
@@ -126,19 +126,19 @@
         margin-left: 10px;
       }
       button:nth-child(1){
-        background-image: url('https://kukufc1.github.io/KaTa//src/img/call_ic.png');
+        background-image: url('https://kukufc1.github.io/KaTaPrjct//img/call_ic.png');
         background-repeat: no-repeat;
         background-position: center;
         background-color: $color;
       }
       button:nth-child(2){
-        background-image: url('https://kukufc1.github.io/KaTa//src/img/chat_ic.png');
+        background-image: url('https://kukufc1.github.io/KaTaPrjct//img/chat_ic.png');
         background-repeat: no-repeat;
         background-position: center;
         background-color: $color;
       }
       button:nth-child(3){
-        background-image:url('https://kukufc1.github.io/KaTa//src/img/profile_ic.png');
+        background-image:url('https://kukufc1.github.io/KaTaPrjct//img/profile_ic.png');
         background-repeat: no-repeat;
         background-position: center;
         background-color: $color;

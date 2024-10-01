@@ -34,10 +34,11 @@ import { modal1 } from '../js/modal1.js';
 import { menu } from '../js/menu.js';
 
 menu();
-swipers();
+
 readEsle();
 links();
 links1();
+swipers();
 modal();
 modal1();
 // console.log('Workssss!1')
