@@ -42,18 +42,18 @@ ul, li {
   list-style: none; }
 
 @font-face {
-  font-family: 'Comic';
-  src: url(./fonts/comic.ttf) format("truetype");
+  font-family: 'TT Lakes';
+  src: url("https://kukufc1.github.io/KaTaPrjct//src/fonts/TTLakes/TTLakes-Regular.woff") format("woff"), url("https://kukufc1.github.io/KaTaPrjct//src/fonts/TTLakes/TTLakes-Regular.ttf") format("truetype");
   font-weight: normal;
-  font-style: italic; }
+  font-style: normal; }
 
 
 @charset "UTF-8";
 @font-face {
-  font-family: 'Comic';
-  src: url(./fonts/comic.ttf) format("truetype");
+  font-family: 'TT Lakes';
+  src: url("https://kukufc1.github.io/KaTaPrjct//src/fonts/TTLakes/TTLakes-Regular.woff") format("woff"), url("https://kukufc1.github.io/KaTaPrjct//src/fonts/TTLakes/TTLakes-Regular.ttf") format("truetype");
   font-weight: normal;
-  font-style: italic; }
+  font-style: normal; }
 
 .wrapper_menu {
   position: absolute; }
@@ -76,7 +76,7 @@ ul, li {
     height: 40px;
     border-radius: 50%;
     background-color: #FF3E79;
-    background-image: url("/src/img/burger.png");
+    background-image: url("https://kukufc1.github.io/KaTaPrjct//img/burger.png");
     background-repeat: no-repeat;
     background-position: center; }
 
@@ -116,7 +116,7 @@ ul, li {
     border-left: 4px solid #41F6D7;
     color: #7E7E82; }
   .menu-list a {
-    font-family: TT Lakes;
+    font-family: "TT Lakes";
     letter-spacing: 0.2px;
     font-weight: 500;
     font-size: 16px;
@@ -144,7 +144,7 @@ ul, li {
       height: 40px;
       border-radius: 50%;
       background-color: #FF3E79;
-      background-image: url("/src/img/search.png");
+      background-image: url("https://kukufc1.github.io/KaTaPrjct//img/search.png");
       background-repeat: no-repeat;
       background-position: center; }
   .menu-list .wrapper__contacts {
@@ -156,24 +156,24 @@ ul, li {
       border-radius: 50%;
       margin-left: 10px; }
     .menu-list .wrapper__contacts .contact__btns button:nth-child(1) {
-      background-image: url("https://kukufc1.github.io/KaTa//src/img/call_ic.png");
+      background-image: url("https://kukufc1.github.io/KaTaPrjct//img/call_ic.png");
       background-repeat: no-repeat;
       background-position: center;
       background-color: #FF3E79; }
     .menu-list .wrapper__contacts .contact__btns button:nth-child(2) {
-      background-image: url("https://kukufc1.github.io/KaTa//src/img/chat_ic.png");
+      background-image: url("https://kukufc1.github.io/KaTaPrjct//img/chat_ic.png");
       background-repeat: no-repeat;
       background-position: center;
       background-color: #FF3E79; }
     .menu-list .wrapper__contacts .contact__btns button:nth-child(3) {
-      background-image: url("https://kukufc1.github.io/KaTa//src/img/profile_ic.png");
+      background-image: url("https://kukufc1.github.io/KaTaPrjct//img/profile_ic.png");
       background-repeat: no-repeat;
       background-position: center;
       background-color: #FF3E79; }
     .menu-list .wrapper__contacts .contact__text {
       padding: 0 10px; }
       .menu-list .wrapper__contacts .contact__text p {
-        font-family: TT Lakes;
+        font-family: "TT Lakes";
         letter-spacing: 0.2px;
         font-size: 16px;
         line-height: 24px;
@@ -218,10 +218,10 @@ ul, li {
       bottom: 50%; } }
 
 @font-face {
-  font-family: 'Comic';
-  src: url(./fonts/comic.ttf) format("truetype");
+  font-family: 'TT Lakes';
+  src: url("https://kukufc1.github.io/KaTaPrjct//src/fonts/TTLakes/TTLakes-Regular.woff") format("woff"), url("https://kukufc1.github.io/KaTaPrjct//src/fonts/TTLakes/TTLakes-Regular.ttf") format("truetype");
   font-weight: normal;
-  font-style: italic; }
+  font-style: normal; }
 
 .wrapper__header {
   display: flex;
@@ -283,11 +283,11 @@ ul, li {
         background-color: #FF3E79;
         border-radius: 50%; }
       .wrapper__header__btns__repair #rapair1 {
-        background-image: url("https://kukufc1.github.io/KaTa//src/img/repair_ic.png");
+        background-image: url("https://kukufc1.github.io/KaTaPrjct//img/repair_ic.png");
         background-repeat: no-repeat;
         background-position: center; }
       .wrapper__header__btns__repair #rapair2 {
-        background-image: url("https://kukufc1.github.io/KaTa//src/img/checkstatus.png");
+        background-image: url("https://kukufc1.github.io/KaTaPrjct//img/checkstatus.png");
         background-repeat: no-repeat;
         background-position: center; }
 
@@ -320,13 +320,13 @@ ul, li {
       border-radius: 50%; }
     .Title .title_ic_repair .ic_repair_btn {
       margin: 0 100px 0 0px;
-      background-image: url("https://kukufc1.github.io/KaTa//src/img/repair_ic.png");
+      background-image: url("https://kukufc1.github.io/KaTaPrjct//img/repair_ic.png");
       width: 50%;
       height: 50%;
       background-repeat: no-repeat;
       background-position: center; }
     .Title .title_ic_repair .ic_checkstatus_btn {
-      background-image: url("https://kukufc1.github.io/KaTa//src/img/checkstatus.png");
+      background-image: url("https://kukufc1.github.io/KaTaPrjct//img/checkstatus.png");
       width: 50%;
       height: 50%;
       background-repeat: no-repeat;
@@ -354,10 +354,10 @@ ul, li {
 
 @charset "UTF-8";
 @font-face {
-  font-family: 'Comic';
-  src: url(./fonts/comic.ttf) format("truetype");
+  font-family: 'TT Lakes';
+  src: url("https://kukufc1.github.io/KaTaPrjct//src/fonts/TTLakes/TTLakes-Regular.woff") format("woff"), url("https://kukufc1.github.io/KaTaPrjct//src/fonts/TTLakes/TTLakes-Regular.ttf") format("truetype");
   font-weight: normal;
-  font-style: italic; }
+  font-style: normal; }
 
 @media (min-width: 320px) and (max-width: 340px) {
   .swiper_box1, .swiper_box2, .swiper_box3 {
@@ -528,10 +528,10 @@ ul, li {
   /*Cтиль будет применяться, если ширина окна браузера больше 1120 пикселей*/ }
 
 @font-face {
-  font-family: 'Comic';
-  src: url(./fonts/comic.ttf) format("truetype");
+  font-family: 'TT Lakes';
+  src: url("https://kukufc1.github.io/KaTaPrjct//src/fonts/TTLakes/TTLakes-Regular.woff") format("woff"), url("https://kukufc1.github.io/KaTaPrjct//src/fonts/TTLakes/TTLakes-Regular.ttf") format("truetype");
   font-weight: normal;
-  font-style: italic; }
+  font-style: normal; }
 
 .Title {
   display: flex;
@@ -561,13 +561,13 @@ ul, li {
       border-radius: 50%; }
     .Title .title_ic_repair .ic_repair_btn {
       margin: 0 100px 0 0px;
-      background-image: url("https://kukufc1.github.io/KaTa//src/img/repair_ic.png");
+      background-image: url("https://kukufc1.github.io/KaTaPrjct//img/repair_ic.png");
       width: 50%;
       height: 50%;
       background-repeat: no-repeat;
       background-position: center; }
     .Title .title_ic_repair .ic_checkstatus_btn {
-      background-image: url("https://kukufc1.github.io/KaTa//src/img/checkstatus.png");
+      background-image: url("https://kukufc1.github.io/KaTaPrjct//img/checkstatus.png");
       width: 50%;
       height: 50%;
       background-repeat: no-repeat;
@@ -594,10 +594,10 @@ ul, li {
   transform: translate(-75%, 0%); }
 
 @font-face {
-  font-family: 'Comic';
-  src: url(./fonts/comic.ttf) format("truetype");
+  font-family: 'TT Lakes';
+  src: url("https://kukufc1.github.io/KaTaPrjct//src/fonts/TTLakes/TTLakes-Regular.woff") format("woff"), url("https://kukufc1.github.io/KaTaPrjct//src/fonts/TTLakes/TTLakes-Regular.ttf") format("truetype");
   font-weight: normal;
-  font-style: italic; }
+  font-style: normal; }
 
 .slideMenu {
   position: relative;
@@ -624,10 +624,10 @@ ul, li {
   /* margin: 0 0px 0 10px; */ }
 
 @font-face {
-  font-family: 'Comic';
-  src: url(./fonts/comic.ttf) format("truetype");
+  font-family: 'TT Lakes';
+  src: url("https://kukufc1.github.io/KaTaPrjct//src/fonts/TTLakes/TTLakes-Regular.woff") format("woff"), url("https://kukufc1.github.io/KaTaPrjct//src/fonts/TTLakes/TTLakes-Regular.ttf") format("truetype");
   font-weight: normal;
-  font-style: italic; }
+  font-style: normal; }
 
 /* slider */
 .swiper_box1 {
@@ -646,7 +646,7 @@ ul, li {
     background: linear-gradient(270deg, #FFFFFF 0%, #F8F8F8 98.61%);
     border-top: 1px solid #D9FFF5; }
     .swiper_box1__header h3 {
-      font-family: TT Lakes;
+      font-family: "TT Lakes";
       letter-spacing: 0.2px;
       font-size: 22px;
       line-height: 24px;
@@ -678,7 +678,7 @@ ul, li {
     height: 40px;
     border: 2px solid #FF3E79;
     border-radius: 50%;
-    background-image: url("/src/img/dropdown.png");
+    background-image: url("https://kukufc1.github.io/KaTaPrjct//img/dropdown.png");
     background-repeat: no-repeat;
     background-position: 50% 50%;
     transform: translate(190px, -85px); }
@@ -699,10 +699,10 @@ ul, li {
     margin-left: 10px; }
 
 @font-face {
-  font-family: 'Comic';
-  src: url(./fonts/comic.ttf) format("truetype");
+  font-family: 'TT Lakes';
+  src: url("https://kukufc1.github.io/KaTaPrjct//src/fonts/TTLakes/TTLakes-Regular.woff") format("woff"), url("https://kukufc1.github.io/KaTaPrjct//src/fonts/TTLakes/TTLakes-Regular.ttf") format("truetype");
   font-weight: normal;
-  font-style: italic; }
+  font-style: normal; }
 
 /* slider2 */
 .swiper_box2 {
@@ -720,7 +720,7 @@ ul, li {
     background: linear-gradient(270deg, #FFFFFF 0%, #F8F8F8 98.61%);
     border-top: 1px solid #D9FFF5; }
     .swiper_box2__header h3 {
-      font-family: TT Lakes;
+      font-family: "TT Lakes";
       letter-spacing: 0.2px;
       font-size: 22px;
       line-height: 24px;
@@ -752,7 +752,7 @@ ul, li {
     height: 40px;
     border: 2px solid #FF3E79;
     border-radius: 50%;
-    background-image: url("/src/img/dropdown.png");
+    background-image: url("https://kukufc1.github.io/KaTaPrjct//img/dropdown.png");
     background-repeat: no-repeat;
     background-position: 50% 50%;
     position: relative;
@@ -772,7 +772,7 @@ ul, li {
   border: 1px solid #EAEAEA;
   border-radius: 6px; }
   .slider2 .swiper-wrapper > .swiper-slide p {
-    font-family: TT Lakes;
+    font-family: "TT Lakes";
     letter-spacing: 0.2px;
     font-weight: 500;
     font-size: 16px;
@@ -781,10 +781,10 @@ ul, li {
     margin: 10px 0 0 10px; }
 
 @font-face {
-  font-family: 'Comic';
-  src: url(./fonts/comic.ttf) format("truetype");
+  font-family: 'TT Lakes';
+  src: url("https://kukufc1.github.io/KaTaPrjct//src/fonts/TTLakes/TTLakes-Regular.woff") format("woff"), url("https://kukufc1.github.io/KaTaPrjct//src/fonts/TTLakes/TTLakes-Regular.ttf") format("truetype");
   font-weight: normal;
-  font-style: italic; }
+  font-style: normal; }
 
 /* slider3 */
 .swiper_box3 {
@@ -802,7 +802,7 @@ ul, li {
     background: linear-gradient(270deg, #FFFFFF 0%, #F8F8F8 98.61%);
     border-top: 1px solid #D9FFF5; }
     .swiper_box3__header h3 {
-      font-family: TT Lakes;
+      font-family: "TT Lakes";
       letter-spacing: 0.2px;
       font-size: 22px;
       line-height: 24px;
@@ -816,7 +816,7 @@ ul, li {
       width: 288px;
       height: 137px; }
       .swiper_box3 .info .content p {
-        font-family: TT Lakes;
+        font-family: "TT Lakes";
         letter-spacing: 0.2px;
         font-weight: 400;
         font-size: 14px;
@@ -827,7 +827,7 @@ ul, li {
       width: 202px;
       height: 54px; }
       .swiper_box3 .info .offer a {
-        font-family: TT Lakes;
+        font-family: "TT Lakes";
         letter-spacing: 0.2px;
         font-weight: 600;
         font-size: 16px;
@@ -842,7 +842,7 @@ ul, li {
           left: 55%;
           width: 24px;
           height: 24px;
-          background-image: url("/src/img/dropdown.png");
+          background-image: url("https://kukufc1.github.io/KaTaPrjct//img/dropdown.png");
           background-repeat: no-repeat;
           background-position: 50% 50%; }
 
@@ -882,7 +882,7 @@ ul, li {
         left: 290%;
         width: 24px;
         height: 24px;
-        background-image: url("/src/img/dropdown.png");
+        background-image: url("https://kukufc1.github.io/KaTaPrjct//img/dropdown.png");
         filter: brightness(0) invert(1);
         background-repeat: no-repeat;
         background-position: 50% 50%; }
@@ -914,7 +914,7 @@ ul, li {
   line-height: 18px;
   text-align: left;
   color: #1B1C21;
-  font-family: TT Lakes;
+  font-family: "TT Lakes";
   letter-spacing: 0.2px; }
 
 .swiper-container.slider3 .swiper-pagination {
@@ -929,10 +929,10 @@ ul, li {
   background-color: #B5B6BC; }
 
 @font-face {
-  font-family: 'Comic';
-  src: url(./fonts/comic.ttf) format("truetype");
+  font-family: 'TT Lakes';
+  src: url("https://kukufc1.github.io/KaTaPrjct//src/fonts/TTLakes/TTLakes-Regular.woff") format("woff"), url("https://kukufc1.github.io/KaTaPrjct//src/fonts/TTLakes/TTLakes-Regular.ttf") format("truetype");
   font-weight: normal;
-  font-style: italic; }
+  font-style: normal; }
 
 .container {
   width: 100%;
@@ -997,7 +997,7 @@ ul, li {
     height: 40px;
     border: 2px solid #FF3E79;
     border-radius: 50%;
-    background-image: url("/src/img/dropdown.png");
+    background-image: url("https://kukufc1.github.io/KaTaPrjct//img/dropdown.png");
     background-repeat: no-repeat;
     background-position: 50%  50%;
     transform: translate(-20px, 0px); }
@@ -1012,7 +1012,7 @@ ul, li {
   margin-left: 0.8em;
   padding-left: 25px;
   white-space: nowrap;
-  background-image: url("https://kukufc1.github.io/KaTa//src/img/icon.png"); }
+  background-image: url("https://kukufc1.github.io/KaTaPrjct//img/icon.png"); }
 
 .container .container-link__btn::first-line {
   font-family: TT Lakes;
@@ -1022,10 +1022,10 @@ ul, li {
   letter-spacing: -0.20000000298023224px; }
 
 @font-face {
-  font-family: 'Comic';
-  src: url(./fonts/comic.ttf) format("truetype");
+  font-family: 'TT Lakes';
+  src: url("https://kukufc1.github.io/KaTaPrjct//src/fonts/TTLakes/TTLakes-Regular.woff") format("woff"), url("https://kukufc1.github.io/KaTaPrjct//src/fonts/TTLakes/TTLakes-Regular.ttf") format("truetype");
   font-weight: normal;
-  font-style: italic; }
+  font-style: normal; }
 
 .container2 {
   width: 100%;
@@ -1047,7 +1047,7 @@ ul, li {
     border-top: 1px solid #D9FFF5;
     background: linear-gradient(270deg, #FFFFFF 0%, #F8F8F8 98.61%); }
     .container2__header p {
-      font-family: TT Lakes;
+      font-family: "TT Lakes";
       letter-spacing: 0.2px;
       font-size: 22px;
       line-height: 24px;
@@ -1063,9 +1063,9 @@ ul, li {
     margin-left: 0.8em;
     padding-left: 25px;
     white-space: nowrap;
-    background-image: url("https://kukufc1.github.io/KaTa//src/img/icon.png"); }
+    background-image: url("https://kukufc1.github.io/KaTaPrjct//img/icon.png"); }
     .container2__btn::first-line {
-      font-family: TT Lakes;
+      font-family: "TT Lakes";
       letter-spacing: 0.2px;
       font-size: 16px;
       font-weight: 500;
@@ -1087,7 +1087,7 @@ ul, li {
     border-radius: 6px;
     margin: 0px 10px 0 10px; }
     .link__flexbox .link__service__box__slide p {
-      font-family: TT Lakes;
+      font-family: "TT Lakes";
       letter-spacing: 0.2px;
       font-weight: 500;
       font-size: 16px;
@@ -1099,7 +1099,7 @@ ul, li {
     height: 40px;
     border: 2px solid #FF3E79;
     border-radius: 50%;
-    background-image: url("/src/img/dropdown.png");
+    background-image: url("https://kukufc1.github.io/KaTaPrjct//img/dropdown.png");
     background-repeat: no-repeat;
     background-position: 50%  50%;
     transform: translate(170px, -60px); }
@@ -1107,10 +1107,10 @@ ul, li {
 @charset "UTF-8";
 /* !!!!!!!!text + img!!!!!!!!!! */
 @font-face {
-  font-family: 'Comic';
-  src: url(./fonts/comic.ttf) format("truetype");
+  font-family: 'TT Lakes';
+  src: url("https://kukufc1.github.io/KaTaPrjct//src/fonts/TTLakes/TTLakes-Regular.woff") format("woff"), url("https://kukufc1.github.io/KaTaPrjct//src/fonts/TTLakes/TTLakes-Regular.ttf") format("truetype");
   font-weight: normal;
-  font-style: italic; }
+  font-style: normal; }
 
 .wrapper__content {
   background: #F8F8F8;
@@ -1122,7 +1122,7 @@ ul, li {
     max-height: 90px;
     /* Показывает только первые строки текста */
     transition: max-height 0.3s ease;
-    font-family: TT Lakes;
+    font-family: "TT Lakes";
     letter-spacing: 0.2px;
     font-size: 14px;
     line-height: 18px;
@@ -1139,7 +1139,7 @@ ul, li {
     .wrapper__content__text .next_read_btn #prgrf {
       display: block; }
     .wrapper__content__text .next_read_btn p {
-      font-family: TT Lakes;
+      font-family: "TT Lakes";
       letter-spacing: 0.2px;
       font-size: 16px;
       line-height: 24px;
@@ -1150,7 +1150,7 @@ ul, li {
     display: inline-block;
     width: 20px;
     height: 20px;
-    background-image: url("/src/img/icon.png");
+    background-image: url("https://kukufc1.github.io/KaTaPrjct//img/icon.png");
     background-repeat: no-repeat;
     background-position: center;
     background-position: 50% 50%; }
@@ -1162,7 +1162,7 @@ ul, li {
       display: none;
       width: 20px;
       height: 20px;
-      background-image: url("/src/img/hide.png");
+      background-image: url("https://kukufc1.github.io/KaTaPrjct//img/hide.png");
       background-repeat: no-repeat;
       background-position: center;
       background-position: 50% 50%; }
@@ -1171,10 +1171,10 @@ ul, li {
 
 @charset "UTF-8";
 @font-face {
-  font-family: 'Comic';
-  src: url(./fonts/comic.ttf) format("truetype");
+  font-family: 'TT Lakes';
+  src: url("https://kukufc1.github.io/KaTaPrjct//src/fonts/TTLakes/TTLakes-Regular.woff") format("woff"), url("https://kukufc1.github.io/KaTaPrjct//src/fonts/TTLakes/TTLakes-Regular.ttf") format("truetype");
   font-weight: normal;
-  font-style: italic; }
+  font-style: normal; }
 
 .modal {
   display: none;
@@ -1251,7 +1251,7 @@ ul, li {
     height: 40px;
     border-radius: 50%;
     background-color: #FF3E79;
-    background-image: url("/src/img/burgerX.png");
+    background-image: url("https://kukufc1.github.io/KaTaPrjct//img/burgerX.png");
     background-repeat: no-repeat;
     background-position: 50% 50%; }
   .close-button button:hover,
@@ -1302,17 +1302,17 @@ ul, li {
       transform: translate(80px, -25px);
       width: 24px;
       height: 24px;
-      background-image: url("/src/img/dropdown.png");
+      background-image: url("https://kukufc1.github.io/KaTaPrjct//img/dropdown.png");
       filter: brightness(0) invert(1);
       background-repeat: no-repeat;
       background-position: 50% 50%; }
 
 @charset "UTF-8";
 @font-face {
-  font-family: 'Comic';
-  src: url(./fonts/comic.ttf) format("truetype");
+  font-family: 'TT Lakes';
+  src: url("https://kukufc1.github.io/KaTaPrjct//src/fonts/TTLakes/TTLakes-Regular.woff") format("woff"), url("https://kukufc1.github.io/KaTaPrjct//src/fonts/TTLakes/TTLakes-Regular.ttf") format("truetype");
   font-weight: normal;
-  font-style: italic; }
+  font-style: normal; }
 
 .feedback-modal {
   display: none;
@@ -1413,7 +1413,7 @@ ul, li {
       height: 40px;
       border-radius: 50%;
       background-color: #FF3E79;
-      background-image: url("/src/img/burgerX.png");
+      background-image: url("https://kukufc1.github.io/KaTaPrjct//img/burgerX.png");
       background-repeat: no-repeat;
       background-position: 50% 50%; }
     .feedback-modal-content .feedback-close button:hover,
@@ -1477,17 +1477,17 @@ ul, li {
       transform: translate(80px, -25px);
       width: 24px;
       height: 24px;
-      background-image: url("/src/img/dropdown.png");
+      background-image: url("https://kukufc1.github.io/KaTaPrjct//img/dropdown.png");
       filter: brightness(0) invert(1);
       background-repeat: no-repeat;
       background-position: 50% 50%; }
 
 @charset "UTF-8";
 @font-face {
-  font-family: 'Comic';
-  src: url(./fonts/comic.ttf) format("truetype");
+  font-family: 'TT Lakes';
+  src: url("https://kukufc1.github.io/KaTaPrjct//src/fonts/TTLakes/TTLakes-Regular.woff") format("woff"), url("https://kukufc1.github.io/KaTaPrjct//src/fonts/TTLakes/TTLakes-Regular.ttf") format("truetype");
   font-weight: normal;
-  font-style: italic; }
+  font-style: normal; }
 
 .box__price__header {
   width: 100%;
@@ -1502,7 +1502,7 @@ ul, li {
   background: linear-gradient(270deg, #FFFFFF 0%, #F8F8F8 98.61%); }
   .box__price__header p {
     text-transform: uppercase;
-    font-family: TT Lakes;
+    font-family: "TT Lakes";
     letter-spacing: 0.2px;
     font-size: 22px;
     line-height: 24px;
@@ -1546,7 +1546,7 @@ ul, li {
           display: flex;
           align-items: center;
           justify-content: flex-start;
-          font-family: TT Lakes;
+          font-family: "TT Lakes";
           letter-spacing: 0.2px;
           font-size: 14px;
           line-height: 18px;
@@ -1604,7 +1604,7 @@ ul, li {
       transform: translate(75px, -25px);
       width: 24px;
       height: 24px;
-      background-image: url("/src/img/dropdown.png");
+      background-image: url("https://kukufc1.github.io/KaTaPrjct//img/dropdown.png");
       filter: brightness(0) invert(1);
       background-repeat: no-repeat;
       background-position: 50% 50%; }
@@ -1616,7 +1616,7 @@ ul, li {
     max-width: 421px;
     padding: 0 0 10px 0; }
     .box__price__info__content p {
-      font-family: TT Lakes;
+      font-family: "TT Lakes";
       letter-spacing: 0.2px;
       font-weight: 400;
       font-size: 14px;
@@ -1628,7 +1628,7 @@ ul, li {
     height: 24px;
     background-color: #F8F8F8; }
     .box__price__info__offer a {
-      font-family: TT Lakes;
+      font-family: "TT Lakes";
       letter-spacing: 0.2px;
       font-weight: 600;
       font-size: 16px;
@@ -1643,15 +1643,15 @@ ul, li {
         left: 310px;
         width: 24px;
         height: 24px;
-        background-image: url("/src/img/dropdown.png");
+        background-image: url("https://kukufc1.github.io/KaTaPrjct//img/dropdown.png");
         background-repeat: no-repeat;
         background-position: 50% 50%; }
 
 @font-face {
-  font-family: 'Comic';
-  src: url(./fonts/comic.ttf) format("truetype");
+  font-family: 'TT Lakes';
+  src: url("https://kukufc1.github.io/KaTaPrjct//src/fonts/TTLakes/TTLakes-Regular.woff") format("woff"), url("https://kukufc1.github.io/KaTaPrjct//src/fonts/TTLakes/TTLakes-Regular.ttf") format("truetype");
   font-weight: normal;
-  font-style: italic; }
+  font-style: normal; }
 
 .footer {
   width: 320px;
