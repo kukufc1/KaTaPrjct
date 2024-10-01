@@ -8,9 +8,17 @@ import '../scss/header.scss'
 import '../scss/media.scss'
 import '../scss/title.scss'
 import '../scss/slideMenu.scss'
+
+
+
+// import '../scss/swiper-bundle.min.css'
+
 import '../scss/slider0.scss'
 import '../scss/slider1.scss'
 import '../scss/slider2.scss'
+
+
+
 import '../scss/else0.scss'
 import '../scss/else1.scss'
 
