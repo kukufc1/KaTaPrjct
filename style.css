@@ -255,15 +255,15 @@ ul, li {
         border-radius: 50%;
         margin: 0 10px 0 0px; }
       .wrapper__header__btns__contacts button:nth-child(1) {
-        background-image: url("/src/img/call_ic.png");
+        background-image: url("/img/call_ic.png");
         background-repeat: no-repeat;
         background-position: center; }
       .wrapper__header__btns__contacts button:nth-child(2) {
-        background-image: url("/src/img/chat_ic.png");
+        background-image: url("/img/chat_ic.png");
         background-repeat: no-repeat;
         background-position: center; }
       .wrapper__header__btns__contacts button:nth-child(3) {
-        background-image: url("/src/img/profile_ic.png");
+        background-image: url("/img/profile_ic.png");
         background-repeat: no-repeat;
         background-position: center; }
     .wrapper__header__btns__repair {
@@ -1012,7 +1012,7 @@ ul, li {
   margin-left: 0.8em;
   padding-left: 25px;
   white-space: nowrap;
-  background-image: url("/src/img/icon.png"); }
+  background-image: url("https://kukufc1.github.io/KaTa//src/img/icon.png"); }
 
 .container .container-link__btn::first-line {
   font-family: TT Lakes;
@@ -1144,28 +1144,28 @@ ul, li {
       font-size: 16px;
       line-height: 24px;
       font-weight: 500; }
-      .wrapper__content__text .next_read_btn p #strlchk {
-        position: relative;
-        top: 5px;
-        display: inline-block;
-        width: 20px;
-        height: 20px;
-        background-image: url("/src/img/icon.png");
-        background-repeat: no-repeat;
-        background-position: center;
-        background-position: 50% 50%; }
-    .wrapper__content__text .next_read_btn #prgrf1 {
-      display: none; }
-      .wrapper__content__text .next_read_btn #prgrf1 #strlchk1 {
-        position: relative;
-        top: 5px;
-        display: none;
-        width: 20px;
-        height: 20px;
-        background-image: url("/src/img/hide.png");
-        background-repeat: no-repeat;
-        background-position: center;
-        background-position: 50% 50%; }
+  .wrapper__content__text #strlchk {
+    position: relative;
+    top: 5px;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-image: url("/src/img/icon.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position: 50% 50%; }
+  .wrapper__content #prgrf1 {
+    display: none; }
+    .wrapper__content #prgrf1 #strlchk1 {
+      position: relative;
+      top: 5px;
+      display: none;
+      width: 20px;
+      height: 20px;
+      background-image: url("/src/img/hide.png");
+      background-repeat: no-repeat;
+      background-position: center;
+      background-position: 50% 50%; }
   .wrapper__content__img img {
     width: 100%; }
 
@@ -1283,8 +1283,7 @@ ul, li {
     align-items: center;
     border-radius: 16px 16px 16px 16px;
     padding: 10px;
-    background-color: #FF3E79;
-    background-image: url(); }
+    background-color: #FF3E79; }
     .form__btn button p {
       display: block;
       width: 30px;
@@ -1459,8 +1458,7 @@ ul, li {
     align-items: center;
     border-radius: 16px 16px 16px 16px;
     padding: 10px;
-    background-color: #FF3E79;
-    background-image: url(); }
+    background-color: #FF3E79; }
     .feedback-submit-btn button p {
       display: block;
       width: 30px;
