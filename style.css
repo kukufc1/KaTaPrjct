@@ -255,15 +255,15 @@ ul, li {
         border-radius: 50%;
         margin: 0 10px 0 0px; }
       .wrapper__header__btns__contacts button:nth-child(1) {
-        background-image: url("/img/call_ic.png");
+        background-image: url("/src/img/call_ic.png");
         background-repeat: no-repeat;
         background-position: center; }
       .wrapper__header__btns__contacts button:nth-child(2) {
-        background-image: url("/img/chat_ic.png");
+        background-image: url("/src/img/chat_ic.png");
         background-repeat: no-repeat;
         background-position: center; }
       .wrapper__header__btns__contacts button:nth-child(3) {
-        background-image: url("/img/profile_ic.png");
+        background-image: url("/src/img/profile_ic.png");
         background-repeat: no-repeat;
         background-position: center; }
     .wrapper__header__btns__repair {
